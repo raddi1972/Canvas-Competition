@@ -9,7 +9,7 @@ function india()
     if (request.status >= 200 && request.status < 400) {
         var i = 0
         p = [0, 0, 0]
-        for(i=0;i<15;i++)
+        for(i=0;i<18;i++)
         {
           l[i] = JSON.parse(JSON.stringify(p));
         }
@@ -34,7 +34,7 @@ function india()
     t_c = []
     t_r = []
     t_d = []
-    for(i=0;i<15;i++)
+    for(i=0;i<18;i++)
     {
       t_c.push(l[i][0])
       t_r.push(l[i][1])
@@ -63,7 +63,7 @@ function india()
             borderColor: 'rgb(0, 0, 255)',
             data: t_d,
           }],
-          labels: ['January', 'February', 'March', 'April', 'May', 'June','July', 'August', 'September', 'October', 'November', 'December','January_21', 'February_21', 'March_21']
+          labels: ['January', 'February', 'March', 'April', 'May', 'June','July', 'August', 'September', 'October', 'November', 'December','January_21', 'February_21', 'March_21', 'April_21', 'May_21', 'June_21']
       },
       // Configuration options go here
       options: {
