@@ -10,7 +10,7 @@ function states(name)
             var i = 0
             var j = 0
             p = [0, 0, 0]
-            for(i=0;i<13;i++)
+            for(i=0;i<16;i++)
             {
                 l[i] = JSON.parse(JSON.stringify(p));
             }
@@ -36,7 +36,7 @@ function states(name)
         t_c = []
         t_r = []
         t_d = []
-        for(i=0;i<13;i++)
+        for(i=0;i<16;i++)
         {
           t_c.push(l[i][0])
           t_r.push(l[i][1])
@@ -63,7 +63,7 @@ function states(name)
                 borderColor: 'rgb(0, 0, 255)',
                 data: t_d,
               }],
-              labels: ['March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December', 'January_21', 'February_21', 'March_21']
+              labels: ['March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December', 'January_21', 'February_21', 'March_21', 'April_21', 'May_21', 'June_21']
           },
           options: {
             events: ['click']
